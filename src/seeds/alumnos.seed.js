@@ -29,7 +29,7 @@ const arrayAlumnos = [
     "notas": [3, 3, 6, 7]
   },{
     "nombre": "Pepe",
-    "apellido": "Rodriguez",
+    "apellido": "Ramirez",
     "edad": 98,        
     "aprobado": true,
     "notas": [3, 3, 6, 7]
