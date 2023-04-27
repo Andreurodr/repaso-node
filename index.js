@@ -1,9 +1,9 @@
 const express = require("express");
 const dotenv = require("dotenv");
-const routerAlumno = require("./src/api/routes/alumno.routes");
+const routerAlumno = require("./src/api/routes/alumno.routes.js");
 
 dotenv.config();
-const {connect} = require("./src/utils/db")
+const {connect} = require("./src/utils/db.js")
 
 const app = express();
 const PORT = process.env.PORT || 5000;

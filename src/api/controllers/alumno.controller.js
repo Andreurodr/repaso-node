@@ -1,4 +1,4 @@
-const Alumno = require("../models/alumno.model")
+const Alumno = require("../models/alumno.model.js")
 
 
 const getAlumnos = async (req, res) => {
